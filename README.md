@@ -14,7 +14,7 @@ npm install react-multiselect-search
 ```
 
 ```jsx
-import { MultiSelectDropdown } from "react-multiselect-search";
+import { MultiSelectDropdown } from "@alaminrifat/react-multiselect-dropdown";
 
 const options = [
   { id: 1, label: "Option 1" },
