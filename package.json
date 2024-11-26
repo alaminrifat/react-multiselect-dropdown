@@ -40,6 +40,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/react-multiselect-dropdown.git"
+    "url": "git@github.com:alaminrifat/react-multiselect-search.git"
   }
 }
