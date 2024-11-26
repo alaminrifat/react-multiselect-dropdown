@@ -1,6 +1,6 @@
 {
-  "name": "react-multiselect-search",
-  "version": "1.0.0",
+  "name": "@alaminrifat/react-multiselect-dropdown",
+  "version": "1.0.1",
   "description": "A React MultiSelect Dropdown component with search functionality",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
@@ -27,6 +27,7 @@
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-typescript": "^12.1.1",
+    "@swc/core": "^1.9.3",
     "@types/node": "^22.10.0",
     "@types/react": "^18.3.12",
     "autoprefixer": "^10.4.20",
@@ -40,6 +41,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:alaminrifat/react-multiselect-search.git"
+    "url": "git@github.com:alaminrifat/react-multiselect-dropdown.git"
   }
 }

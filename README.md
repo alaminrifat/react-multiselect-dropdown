@@ -2,6 +2,11 @@
 
 A customizable React MultiSelect Dropdown component with search functionality and TypeScript support.
 
+## Preview
+
+![search](https://i.ibb.co.com/VMM6y2L/search.png)
+![with select](https://i.ibb.co.com/3MTshqt/with-select.png)
+
 ## Installation
 
 ```bash

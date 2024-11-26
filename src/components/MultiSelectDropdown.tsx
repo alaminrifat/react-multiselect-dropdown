@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { MultiSelectDropdownProps, Option } from "./MultiSelectDropdownProps";
-
+import { Option, MultiSelectDropdownProps } from "../types";
 const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({
   options,
   selected,
